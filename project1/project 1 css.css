@@ -1,15 +1,36 @@
 body {
-    margin:0;
     width:100%;
+    background-image:url(images/Background%20texture.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
 }
 
 img {
-    width:100%;
+    width: 100%;
+}
+img#Slipknotalbum {
+    width: 50%;
+    float:right;
+    margin-left: 10%;
+}
+img#Stonesouralbum {
+    width: 50%;
+    float:left;
 }
 
-img#knotslip {
-    width:50%;
-}
 p {
     width:60%;
+    color: white;
+}
+
+h1 {
+    color: White;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
 }
