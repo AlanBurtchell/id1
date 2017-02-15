@@ -4,26 +4,44 @@ body {
     background-repeat: repeat-y;
     background-size: contain;
 }
-
+@fontface {
+    font-family: serif;
+    src:url()
+}
 img {
     width: 100%;
 }
 img#Slipknotalbum {
     width: 50%;
     float:right;
-    margin-left: 10%;
 }
 img#Stonesouralbum {
     width: 50%;
     float:left;
+    margin-bottom: 30%
 }
 
 p {
-    width:60%;
+    width:100%;
     color: white;
+    text-align: center;
 }
-
+p#slipknottext {
+    text-align: left;
+    margin-right: 10%;
+}
+p#stonesourtext {
+    text-align: right;
+    margin-left: 10%
+}
+p#paragraphaftercorey {
+    width: 100%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 h1 {
+    text-align: center;
     color: White;
 }
 
@@ -32,5 +50,6 @@ h2 {
 }
 
 h3 {
+    text-align: right;
     color: white;
 }
