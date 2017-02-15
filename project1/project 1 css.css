@@ -28,10 +28,12 @@ p#beforealbums {
     margin-bottom: 20%;
 }
 p#slipknottext {
+    width: 100%;
     text-align: left;
     margin-right: 10%;
 }
 p#stonesourtext {
+    width: 100%;
     text-align: right;
     margin-left: 10%;
 }
@@ -46,10 +48,12 @@ h1 {
 }
 
 h2 {
+    text-align: left;
     color: whitesmoke;
 }
 
 h3 {
+    width: 100%;
     text-align: right;
     color: whitesmoke;
 }
