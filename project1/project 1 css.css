@@ -30,6 +30,10 @@ img#neck {
     position: relative;
     width: 100%;
 }
+img#whitelogo {
+    width: 30%;
+    margin-bottom: 10%;
+}
 p {
     margin: auto;
     display: block;
@@ -73,7 +77,7 @@ h2 {
 }
 h3 {
     color: whitesmoke;
-     position: absolute;
+    position: absolute;
     top: 200px;
     left: 0;
     width: 100%;
