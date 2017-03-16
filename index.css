@@ -34,11 +34,11 @@ section#aboutmestoof {
 
 p#whyitookthisclass {
     margin-right: 5%;
-    width: 100%;
+    width: 95%;
 }
 
 p#mygoals {
-    width: 100%;
+    width: 95%;
     margin-right: 5%;
 }
 
@@ -59,6 +59,7 @@ p#githubplug {
 }
 
 footer {
+    margin-top: 10%;
     clear: both;
     position: relative;
     display: block;
@@ -70,6 +71,13 @@ img {
 
 img#headerimage {
     display: block;
+    margin-bottom: -15%;
+}
+
+img#footerimage {
+    display: block;
+    margin-bottom: -5%;
+    margin-top: -20%;
 }
 
 img#me {
