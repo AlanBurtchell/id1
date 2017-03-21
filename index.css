@@ -112,4 +112,8 @@ img#me {
         opacity: 0%;
     }
     
+    img#headerimage {
+        opacity: 0%;
+    }
+    
 }
