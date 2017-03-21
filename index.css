@@ -59,6 +59,7 @@ p#githubplug {
 }
 
 footer {
+    margin-top: 10%;
     clear: both;
     position: relative;
     display: block;
@@ -91,12 +92,24 @@ img#me {
 @media only screen and (max-width:500px) {
     
     body {
+        background-image: url(project1/images/sidebar-image.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-attachment: fixed;
         width: 80%;
-        padding: 2% 2%;
+        padding: 4% 4%;
+    }
+    
+    ol {
+        font-size: 200%;
     }
     
     img {
         width: 80%;
+    }
+    
+    img#footerimage {
+        opacity: 0%;
     }
     
 }
