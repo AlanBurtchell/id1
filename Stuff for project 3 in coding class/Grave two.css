@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: darkgrey;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+}
+
+img#muscle {
+    width: 60%;
+    padding: 10%;
+}
+
+img#doodles {
+    width: 60%;
+    padding: 10%;
+}
+
+img#building {
+    width: 60%;
+    padding: 10%;
+}
+
+h4 {
+    margin-top: -10%;
+}

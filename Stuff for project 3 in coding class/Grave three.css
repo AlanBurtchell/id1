@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: darkgrey;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+}
+
+img#robot {
+    width: 60%;
+    padding: 10%;
+}
+
+img#comic {
+    width: 60%;
+    padding: 10%;
+}
+
+img#running {
+    width: 60%;
+    padding: 10%;
+}
+
+h4 {
+    margin-top: -10%;
+}
