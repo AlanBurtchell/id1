@@ -1,0 +1,19 @@
+body {
+    font-family: 'Finger Paint', cursive;
+    background-color: black;
+    width: 100%;
+}
+
+img#theonlypicture {
+    width: 100%;
+    position: absolute;
+}
+
+header {
+    margin-top: 20%;
+    padding: 10%;
+    width: 80%;
+    text-align: center;
+    color: darkgrey;
+    font-size: 100px;
+}
