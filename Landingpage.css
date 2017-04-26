@@ -1,0 +1,119 @@
+/* DESKTOP LAYOUT */
+
+body {
+    font-family: 'Sue Ellen Francisco', cursive;
+    margin: 0;
+    background-color: floralwhite;
+    font-size: 130%;
+}
+
+h3 {
+    font-size: 300%;
+    text-align: center;
+}
+
+h4 {
+    margin-left: 5%;
+    font-size: 200%;
+}
+
+h5 {
+    font-size: 150%;
+    text-align: center;
+}
+
+section {
+    float: left;
+    display: inline-block;
+    width: 50%;
+}
+
+section#aboutmestoof {
+    width: 100%;
+}
+
+p#whyitookthisclass {
+    margin-right: 5%;
+    width: 95%;
+}
+
+p#mygoals {
+    width: 95%;
+    margin-right: 5%;
+}
+
+p#paragraph1 {
+    text-align: center;
+    font-size: 130%;
+}
+
+p#paragraph2 {
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 130%;
+}
+
+p#githubplug {
+    text-align: center;
+    margin-right: 5%;
+}
+
+footer {
+    margin-top: 10%;
+    clear: both;
+    position: relative;
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+img#headerimage {
+    display: block;
+    margin-bottom: -15%;
+}
+
+img#footerimage {
+    display: block;
+    margin-bottom: -5%;
+    margin-top: -20%;
+}
+
+img#me {
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+    margin-right: 15%;
+}
+
+/* MOBILE LAYOUT */
+
+@media only screen and (max-width:500px) {
+    
+    body {
+        background-image: url(project1/images/sidebar-image.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-attachment: fixed;
+        width: 80%;
+        padding: 4% 4%;
+    }
+    
+    ol {
+        font-size: 200%;
+    }
+    
+    img {
+        width: 80%;
+    }
+    
+    img#footerimage {
+        opacity: 0%;
+    }
+    
+    img#headerimage {
+        opacity: 0%;
+    }
+    
+}
