@@ -12,3 +12,33 @@ img#cubby {
 heading {
     position: absolute;
 }
+
+a {
+    background-color:;
+    position: absolute;
+}
+
+section {
+    position: relative;
+}
+
+a#link1 {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 25%;
+}
+
+a#link2 {
+    top: 38%;
+    left: 5%;
+    width: 90%;
+    height: 25%;
+}
+
+a#link3 {
+    bottom: 5%;
+    left: 5%;
+    width: 90%;
+    height: 25%;
+}

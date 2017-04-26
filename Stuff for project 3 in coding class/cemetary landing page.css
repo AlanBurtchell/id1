@@ -6,7 +6,7 @@ body {
 
 img#theonlypicture {
     width: 100%;
-    position: absolute;
+        
 }
 
 header {
@@ -16,4 +16,16 @@ header {
     text-align: center;
     color: darkgrey;
     font-size: 100px;
+}
+
+a {
+    background-color:;
+    color: dimgrey;
+    position: absolute;
+    left: 42%;
+    bottom: 1%;
+}
+
+section {
+    position: relative;
 }
